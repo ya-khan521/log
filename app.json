@@ -1,0 +1,39 @@
+{
+    "name": "MEGA Login Automation",
+    "description": "Python script automates the login process to MEGA.",
+    "website": "https://mega.nz/login",
+    "repository": "https://github.com/Hrishi2861/Mega-Login-Automation",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/57/01_mega_logo.svg",
+    "env": {
+      "MEGA_EMAIL": {
+        "description": "Your MEGA Email.",
+        "required": "true"
+      },
+      "MEGA_PASSWORD": {
+        "description": "Your MEGA Password.",
+        "required": "true"
+      },
+      "MEGA_API": {
+        "description": "Your MEGA API. Get it from [Here](https://graph.org/MEGA-API-04-01)",
+        "required": "true"
+      }
+    },
+    "formation": {
+      "worker": {
+        "quantity": 1,
+        "size": "basic"
+      }
+    },
+    "stack": "heroku-24",
+    "buildpacks": [
+      {
+        "url": "https://github.com/heroku/heroku-buildpack-chromedriver.git"
+      },
+      {
+        "url": "https://github.com/heroku/heroku-buildpack-chrome-for-testing.git"
+      },
+      {
+        "url": "heroku/python"
+      }
+    ]
+  }
