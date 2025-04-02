@@ -7,15 +7,15 @@
     "env": {
       "MEGA_EMAIL": {
         "description": "Your MEGA Email.",
-        "required": "true"
+        "required": true
       },
       "MEGA_PASSWORD": {
         "description": "Your MEGA Password.",
-        "required": "true"
+        "required": true
       },
       "MEGA_API": {
-        "description": "Your MEGA API. Get it from [Here](https://graph.org/MEGA-API-04-01)",
-        "required": "true"
+        "description": "Your MEGA API. Get it from https://graph.org/MEGA-API-04-01",
+        "required": true
       }
     },
     "formation": {
@@ -36,4 +36,4 @@
         "url": "heroku/python"
       }
     ]
-  }
+}
