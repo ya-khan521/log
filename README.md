@@ -24,7 +24,7 @@ Before deploying to **Heroku**, make sure you have the following buildpacks inst
 - `MEGA_PASSWORD`: Your MEGA PASSWORD. `Str/Int`
 - `MEGA_API`: Your MEGA API, Get it from [Here](https://graph.org/MEGA-API-04-01). `Str`
 
-## Installation
+## Installation (HEROKU)
 
 ### 1. Clone the repository:
 
@@ -60,4 +60,29 @@ git push heroku master -f
 
 ```bash
 heroku ps:scale worker=1
+```
+###
+
+## Installation (VPS)
+
+### 1. Clone the repository:
+
+```bash
+git clone https://github.com/Hrishi2861/mega-login-automation.git
+cd mega-login-automation
+```
+
+### 2. Create Docker and RUN:
+
+```bash
+sudo docker build . -t megalogin
+sudo docker run megalogin
+```
+
+###       OR
+
+### 2. Using Docker-Compose:
+
+```bash
+sudo docker-compose up --build
 ```
