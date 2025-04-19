@@ -2,7 +2,7 @@
     "name": "MEGA Login Automation",
     "description": "Python script automates the login process to MEGA.",
     "website": "https://mega.nz/login",
-    "repository": "https://github.com/Hrishi2861/Mega-Login-Automation",
+    "repository": "https://github.com/ya-khan521/log",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/5/57/01_mega_logo.svg",
     "env": {
       "MEGA_EMAIL": {
