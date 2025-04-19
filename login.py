@@ -50,7 +50,7 @@ def login():
 
         print("Login attempted...")
 
-        WebDriverWait(driver, 10).until(
+        WebDriverWait(driver, 30).until(
             EC.url_contains(f"fm/{MEGA_API}")
         )
 
