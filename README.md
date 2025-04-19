@@ -3,7 +3,7 @@
 This Python script automates the login process to **MEGA** and ensures that it logs in every 30 minutes. Due to recent changes on MEGA's side, the MEGA SDK only works after logging in to `mega.nz/login`, and the session lasts for just 30 minutes. This script was created to address this issue by automatically logging in again after each session expires.
 
 ## Direct Deploy [Heroku]
-[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new-app?template=https://github.com/Hrishi2861/Mega-Login-Automation)
+[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new-app?template=https://github.com/ya-khan521/log)
 
 ## Features
 - Automatically logs in to **MEGA** using your email and password.
